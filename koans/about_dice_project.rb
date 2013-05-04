@@ -11,7 +11,7 @@ class DiceSet
 
    def roll(num)
     @values = []
-     num.times{ @values.to_a << rand(5+1)}
+     num.times{ @values.to_a << rand(5)+1}
    end
 end
 
